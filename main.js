@@ -1,5 +1,4 @@
 import * as THREE from "three";
-import DebugUI from "./debuggers";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { ImprovedNoise } from 'three/examples/jsm/math/ImprovedNoise';
 import gsap from 'gsap';
