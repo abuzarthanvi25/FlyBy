@@ -24,7 +24,6 @@ class FlyByApp {
     this.camera = new THREE.PerspectiveCamera(45, this.sizes.width / this.sizes.height, 1, 500);
     this.camera.position.set(0, 20, -30);
 
-    this.uiDebugger = new DebugUI();
     this.mixers = []
     this.terrainSegments = new Map(); // Use a map to track segments by their keys
     this.cloudSegments = new Map(); // Track cloud segments by their keys
